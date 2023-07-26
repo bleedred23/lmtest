@@ -11,8 +11,8 @@ services:
     image: mysql:8.0
     environment:
       - MYSQL_ROOT_PASSWORD=@X@hBI:xK18SE"IxXz9CtQ>RCDyEWg
-      - MYSQL_DATABASE=yii2basic
+      - MYSQL_DATABASE=test_task
       - MYSQL_USER=yii2basic
       - MYSQL_PASSWORD=lQ:z}>nwyp4.twJ6haqr{Rj^@/KQ2+
     ports:
-      - '3306:3306'
+      - '3307:3306'
